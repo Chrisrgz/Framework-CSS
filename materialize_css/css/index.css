@@ -1,0 +1,60 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    background: #26c6da;
+}
+
+.brand-logo img {
+    border-radius: 5px;
+}
+
+.nav-title {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: -20px;
+}
+
+.left-sidebar {
+    position: absolute;
+    top: 30%;
+    z-index: 999;
+}
+
+.collection {
+    border: none;
+}
+
+.collection-item {
+    padding: 8px;
+    font-size: 25px;
+    color:black;
+    background: none;
+}
+
+p {
+    text-align: justify;
+    font-size: 18px
+}
+
+.chip {
+    font-size: 10px;
+}
+
+.row-container {
+    background-color: rgba(209, 161, 1, 0.6);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.hide-on-small-only {
+    position: absolute;
+    top: 550px;
+}
+
+.btn {
+    background-color: rgb(209, 161, 1)
+}
